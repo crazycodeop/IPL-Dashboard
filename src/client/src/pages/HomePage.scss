@@ -1,0 +1,19 @@
+.HomePage {
+    .header-section {
+        text-align: center;
+    }
+    
+    .app-name {
+        /* Optional: You can further style the h1 element if needed */
+        margin: 30px; /* Removes default margin */
+        font-size: 3rem; /* Example font size */
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+}

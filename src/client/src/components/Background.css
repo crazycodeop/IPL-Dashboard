@@ -1,0 +1,107 @@
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #4e54c8;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 18%;
+    width: 158px;
+    height: 158px;
+    bottom: -158px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 71%;
+    width: 175px;
+    height: 175px;
+    bottom: -175px;
+    animation-delay: 4s;
+}
+.background li:nth-child(2) {
+    left: 64%;
+    width: 100px;
+    height: 100px;
+    bottom: -100px;
+    animation-delay: 4s;
+}
+.background li:nth-child(3) {
+    left: 59%;
+    width: 167px;
+    height: 167px;
+    bottom: -167px;
+    animation-delay: 1s;
+}
+.background li:nth-child(4) {
+    left: 29%;
+    width: 122px;
+    height: 122px;
+    bottom: -122px;
+    animation-delay: 8s;
+}
+.background li:nth-child(5) {
+    left: 42%;
+    width: 152px;
+    height: 152px;
+    bottom: -152px;
+    animation-delay: 16s;
+}
+.background li:nth-child(6) {
+    left: 85%;
+    width: 130px;
+    height: 130px;
+    bottom: -130px;
+    animation-delay: 6s;
+}
+.background li:nth-child(7) {
+    left: 82%;
+    width: 187px;
+    height: 187px;
+    bottom: -187px;
+    animation-delay: 10s;
+}
+.background li:nth-child(8) {
+    left: 61%;
+    width: 186px;
+    height: 186px;
+    bottom: -186px;
+    animation-delay: 10s;
+}
+.background li:nth-child(9) {
+    left: 17%;
+    width: 146px;
+    height: 146px;
+    bottom: -146px;
+    animation-delay: 39s;
+}
